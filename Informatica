@@ -1,0 +1,124 @@
+
+(process:948): GLib-GIO-WARNING **: 01:15:55.436: Unexpectedly, UWP app `HaukeGtze.NotepadEditor_1.8193.1.0_x64__6bk20wvc8rfx2' (AUMId `HaukeGtze.NotepadEditor_6bk20wvc8rfx2!notepad') supports 182 extensions but has no verbs
+TypeError: Cannot read properties of undefined (reading 'permission')
+    at C:\Users\aktas\OneDrive\Bureau\Informatica\Events\Bot\interactionCreate.js:10:20
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\ws\lib\event-target.js:199:18)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\ws\lib\websocket.js:1098:20)
+TypeError: Cannot read properties of undefined (reading 'permission')
+    at C:\Users\aktas\OneDrive\Bureau\Informatica\Events\Bot\interactionCreate.js:10:20
+    at Client.emit (node:events:390:28)
+    at InteractionCreateAction.handle (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\actions\InteractionCreate.js:74:12)
+    at Object.module.exports [as INTERACTION_CREATE] (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\ws\lib\event-target.js:199:18)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\ws\lib\websocket.js:1098:20)
+
+(process:948): Pango-WARNING **: 01:50:09.901: couldn't load font "Futura Bold Not-Rotated 20px", falling back to "Sans Bold Not-Rotated 20px", expect ugly output.
+
+(process:948): Pango-WARNING **: 01:50:09.912: couldn't load font "Futura Bold Not-Rotated 36px", falling back to "Sans Bold Not-Rotated 36px", expect ugly output.
+
+(process:10828): GLib-GIO-WARNING **: 01:58:48.316: Unexpectedly, UWP app `HaukeGtze.NotepadEditor_1.8193.1.0_x64__6bk20wvc8rfx2' (AUMId `HaukeGtze.NotepadEditor_6bk20wvc8rfx2!notepad') supports 182 extensions but has no verbs
+[PM2][ERROR] Process or Namespace Informatica not found
+Error: Command failed: pm2 restart Informatica
+[PM2][ERROR] Process or Namespace Informatica not found
+
+    at checkExecSyncError (node:child_process:826:11)
+    at Object.execSync (node:child_process:900:15)
+    at C:\Users\aktas\OneDrive\Bureau\Informatica\Commandes\restart.js:17:44
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Command.run (C:\Users\aktas\OneDrive\Bureau\Informatica\Commandes\restart.js:15:9) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    <Buffer 55 73 65 20 2d 2d 75 70 64 61 74 65 2d 65 6e 76 20 74 6f 20 75 70 64 61 74 65 20 65 6e 76 69 72 6f 6e 6d 65 6e 74 20 76 61 72 69 61 62 6c 65 73 0a>,
+    <Buffer 5b 50 4d 32 5d 5b 45 52 52 4f 52 5d 20 50 72 6f 63 65 73 73 20 6f 72 20 4e 61 6d 65 73 70 61 63 65 20 49 6e 66 6f 72 6d 61 74 69 63 61 20 6e 6f 74 20 ... 6 more bytes>
+  ],
+  pid: 2892,
+  stdout: <Buffer 55 73 65 20 2d 2d 75 70 64 61 74 65 2d 65 6e 76 20 74 6f 20 75 70 64 61 74 65 20 65 6e 76 69 72 6f 6e 6d 65 6e 74 20 76 61 72 69 61 62 6c 65 73 0a>,
+  stderr: <Buffer 5b 50 4d 32 5d 5b 45 52 52 4f 52 5d 20 50 72 6f 63 65 73 73 20 6f 72 20 4e 61 6d 65 73 70 61 63 65 20 49 6e 66 6f 72 6d 61 74 69 63 61 20 6e 6f 74 20 ... 6 more bytes>
+}
+
+(process:10828): Pango-WARNING **: 02:00:51.840: couldn't load font "Futura Bold Not-Rotated 20px", falling back to "Sans Bold Not-Rotated 20px", expect ugly output.
+
+(process:10828): Pango-WARNING **: 02:00:51.850: couldn't load font "Futura Bold Not-Rotated 36px", falling back to "Sans Bold Not-Rotated 36px", expect ugly output.
+
+(process:10828): Pango-WARNING **: 02:00:59.909: couldn't load font "Futura Bold Not-Rotated 12px", falling back to "Sans Bold Not-Rotated 12px", expect ugly output.
+
+(process:10828): Pango-WARNING **: 02:00:59.917: couldn't load font "Futura Bold 12px", falling back to "Sans Bold 12px", expect ugly output.
+
+(process:10828): Pango-WARNING **: 02:00:59.922: couldn't load font "Futura Bold Not-Rotated 28px", falling back to "Sans Bold Not-Rotated 28px", expect ugly output.
+
+(process:7988): GLib-GIO-WARNING **: 02:11:24.966: Unexpectedly, UWP app `HaukeGtze.NotepadEditor_1.8193.1.0_x64__6bk20wvc8rfx2' (AUMId `HaukeGtze.NotepadEditor_6bk20wvc8rfx2!notepad') supports 182 extensions but has no verbs
+DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async CommandInteraction.reply (C:\Users\aktas\OneDrive\Bureau\Informatica\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:99:5)
+    at async Query.<anonymous> (C:\Users\aktas\OneDrive\Bureau\Informatica\Commandes\ping.js:23:13) {
+  method: 'post',
+  path: '/interactions/926282716478074930/aW50ZXJhY3Rpb246OTI2MjgyNzE2NDc4MDc0OTMwOlFTaldlV3h5TlNQTjl6VzgxemdPUUFJNGFEVFZ6UVh4T3ZvMm5wTXBQc3UyUmc2Q3VSMlJydkMxY3dFQTVZVUYzZG5zZkV6ZGFzSExyakR2QURVc0F5enFsR3pQUDFjeVI4MTBBbEttd21FUUp5eHhMeHRaTDNNd2RFeFpxYThD/callback',
+  code: 10062,
+  httpStatus: 404,
+  requestData: { json: { type: 4, data: [Object] }, files: [] }
+}
+[PM2][ERROR] Process 1 not found
+Error: Command failed: pm2 restart Informatica
+[PM2][ERROR] Process 1 not found
+
+    at checkExecSyncError (node:child_process:826:11)
+    at Object.execSync (node:child_process:900:15)
+    at C:\Users\aktas\OneDrive\Bureau\Informatica\Commandes\restart.js:17:44
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Command.run (C:\Users\aktas\OneDrive\Bureau\Informatica\Commandes\restart.js:15:9) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    <Buffer 55 73 65 20 2d 2d 75 70 64 61 74 65 2d 65 6e 76 20 74 6f 20 75 70 64 61 74 65 20 65 6e 76 69 72 6f 6e 6d 65 6e 74 20 76 61 72 69 61 62 6c 65 73 0a 5b ... 71 more bytes>,
+    <Buffer 5b 50 4d 32 5d 5b 45 52 52 4f 52 5d 20 50 72 6f 63 65 73 73 20 31 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+  ],
+  pid: 6988,
+  stdout: <Buffer 55 73 65 20 2d 2d 75 70 64 61 74 65 2d 65 6e 76 20 74 6f 20 75 70 64 61 74 65 20 65 6e 76 69 72 6f 6e 6d 65 6e 74 20 76 61 72 69 61 62 6c 65 73 0a 5b ... 71 more bytes>,
+  stderr: <Buffer 5b 50 4d 32 5d 5b 45 52 52 4f 52 5d 20 50 72 6f 63 65 73 73 20 31 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
+
+(process:7988): Pango-WARNING **: 02:18:16.466: couldn't load font "Futura Bold Not-Rotated 20px", falling back to "Sans Bold Not-Rotated 20px", expect ugly output.
+
+(process:7988): Pango-WARNING **: 02:18:16.478: couldn't load font "Futura Bold Not-Rotated 36px", falling back to "Sans Bold Not-Rotated 36px", expect ugly output.
+
+(process:7988): Pango-WARNING **: 02:18:22.797: couldn't load font "Futura Bold Not-Rotated 12px", falling back to "Sans Bold Not-Rotated 12px", expect ugly output.
+
+(process:7988): Pango-WARNING **: 02:18:22.805: couldn't load font "Futura Bold 12px", falling back to "Sans Bold 12px", expect ugly output.
+
+(process:7988): Pango-WARNING **: 02:18:22.810: couldn't load font "Futura Bold Not-Rotated 28px", falling back to "Sans Bold Not-Rotated 28px", expect ugly output.
+[PM2][ERROR] Process 1 not found
+Error: Command failed: pm2 restart Informatica
+[PM2][ERROR] Process 1 not found
+
+    at checkExecSyncError (node:child_process:826:11)
+    at Object.execSync (node:child_process:900:15)
+    at C:\Users\aktas\OneDrive\Bureau\Informatica\Commandes\restart.js:17:44
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Command.run (C:\Users\aktas\OneDrive\Bureau\Informatica\Commandes\restart.js:15:9) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    <Buffer 55 73 65 20 2d 2d 75 70 64 61 74 65 2d 65 6e 76 20 74 6f 20 75 70 64 61 74 65 20 65 6e 76 69 72 6f 6e 6d 65 6e 74 20 76 61 72 69 61 62 6c 65 73 0a 5b ... 71 more bytes>,
+    <Buffer 5b 50 4d 32 5d 5b 45 52 52 4f 52 5d 20 50 72 6f 63 65 73 73 20 31 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+  ],
+  pid: 13556,
+  stdout: <Buffer 55 73 65 20 2d 2d 75 70 64 61 74 65 2d 65 6e 76 20 74 6f 20 75 70 64 61 74 65 20 65 6e 76 69 72 6f 6e 6d 65 6e 74 20 76 61 72 69 61 62 6c 65 73 0a 5b ... 71 more bytes>,
+  stderr: <Buffer 5b 50 4d 32 5d 5b 45 52 52 4f 52 5d 20 50 72 6f 63 65 73 73 20 31 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
